@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="cadre">
+        <p class="title">Formulaire D'inscription Utilisateurs</p>
+        <form>
+            <div class="prenom">
+                <label for="prenom">Prenom</label>
+                <br>
+                <input type="text" id="prenom" placeholder="Entrer votre prenom">
+            </div>
+            <div class="nom">
+                <label for="nom">nom</label>
+                <br>
+                <input type="text" id="nom" placeholder="Entrer votre nom">
+            </div>
+            <div class="mot-passe">
+                <label for="mdp">Mot de passe</label>
+                <br>
+                <input type="password" id="nom" placeholder="Entrer votre passwords">
+            </div>
+            <div class="confirmation-mdp">
+                <label for="mdp">Confirmation Mot de passe</label>
+                <br>
+                <input type="password" id="nom" placeholder="Entrer votre passwords">
+            </div>
+            <div class="genre">
+                <fieldset>
+                    <legend>Genre</legend>
+                    <input id="homme" type="checkbox" value="Homme">
+                    <label for="homme">Homme</label>
+                    <input id="femme" type="checkbox" value="Femme">
+                    <label for="femme">Femme</label>
+                </fieldset>
+            </div>
+            <div class="pays">
+                <fieldset>
+                    <legend>Pays</legend>
+                    <input id="tunisie" type="checkbox" value="Tunisia">
+                    <label for="tunisie">Tunisie</label>
+                    <input id="algerie" type="checkbox" value="Algeria">
+                    <label for="algerie">Algerie</label>
+                    <input id="egypte" type="checkbox" value="Egypte">
+                    <label for="egypte">Egypte</label>
+            </div>
+            <div class="submite">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
